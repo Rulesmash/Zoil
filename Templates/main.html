@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoil APP</title>
+    <style>
+        :root {
+            --primary-color: #2C5F2D;
+            --secondary-color: #97BC62;
+            --accent: #FFD700;
+            --dark-bg: #1A1A1A;
+            --light-bg: #F5F5F5;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: var(--dark-bg);
+        }
+
+        /* Header */
+        .header {
+            background: var(--primary-color) url('header-bg.jpg') center/cover;
+            padding: 2rem;
+            color: white;
+            text-align: center;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            padding: 1rem;
+            background: var(--dark-bg);
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .nav a:hover {
+            background: var(--secondary-color);
+            color: var(--dark-bg);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            background: var(--light-bg);
+        }
+
+        .guide-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 2rem 0;
+        }
+
+        .guide-card {
+            background: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .guide-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        /* Section */
+        .section-title {
+            text-align: center;
+            margin: 2rem 0;
+            color: var(--primary-color);
+        }
+
+        .cta-section {
+            background: var(--secondary-color);
+            padding: 3rem;
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .footer {
+            background: var(--dark-bg);
+            color: white;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .guide-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Zoil</h1>
+        <p>Empowering youth in modern agriculture</p>
+    </header>
+
+    <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/index">Guides</a>
+        <a href="/about">About</a>
+    </nav>
+
+    <div class="hero">
+        <div class="container">
+            <h2>Start Your Farming Journey</h2>
+            <p>Practical guides for young aspiring farmers</p>
+        </div>
+    </div>
+
+    <main class="container">
+        <h2 class="section-title">Featured Guides</h2>
+        <div class="guide-grid">
+
+
+            <article class="guide-card">
+                <div class="card-icon">📘</div>
+                <h3>Urban Farming Basics</h3>
+                <p>Learn how to start a small farm in urban spaces...</p>
+                <a href="#">Read More →</a>
+            </article>
+
+            <article class="guide-card">
+                <div class="card-icon">💧</div>
+                <h3>Water Conservation</h3>
+                <p>Smart irrigation techniques for young farmers...</p>
+                <a href="#">Read More →</a>
+            </article>
+
+            <article class="guide-card">
+                <div class="card-icon">🌿</div>
+                <h3>Organic Practices</h3>
+                <p>Chemical-free farming methods...</p>
+                <a href="#">Read More →</a>
+            </article>
+        </div>
+
+        <div class="cta-section">
+            <h2>Contribute Your Knowledge</h2>
+            <p>Submit your own guide or farming experience</p>
+            <button style="margin-top: 1rem; padding: 0.8rem 2rem; background: var(--primary-color); color: white; border: none; border-radius: 5px;">Submit Guide</button>
+        </div>
+
+        <section id="resources">
+            <h2 class="section-title">Learning Resources</h2>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div style="margin-top: 1rem;">
+                <a href="#" style="color: var(--secondary-color); margin-right: 1rem;">Twitter</a>
+                <a href="#" style="color: var(--secondary-color); margin-right: 1rem;">Instagram</a>
+                <a href="#" style="color: var(--secondary-color);">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
