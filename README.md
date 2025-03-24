@@ -7,7 +7,7 @@ A Articulated website that introduces new generation in agriculture and farming 
 
 # How it works
 It primarly focuses on distrubuting articles made by farmers or surveys regarding them sourced into text
-Users can upload articles of their own and it would go through a guideline check and would be upoaded along with other guides , encouraging new practices in agriculture
+Users can upload articles of their own and it would go through a guideline check and would be uploaded along with other guides , encouraging new practices in agriculture
 
 # Features to implement later on
 A article read out feature for audiobook styled learning
