@@ -6,3 +6,8 @@ A web app that helps new and upcomming farmers in learning about agricultural te
 A Articulated website that introduces new generation in agriculture and farming at urban areas
 
 # How it works
+It primarly focuses on distrubuting articles made by farmers or surveys regarding them sourced into text
+Users can upload articles of their own and it would go through a guideline check and would be upoaded along with other guides , encouraging new practices in agriculture
+
+# License
+[GNU GPLv3 License](LICENSE)
