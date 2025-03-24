@@ -1,0 +1,135 @@
+.mainpage,
+.mainpage * {
+  box-sizing: border-box;
+}
+.mainpage {
+  background: #ffffff;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.header {
+  width: 1440px;
+  height: 131px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 0px;
+}
+.rectangle-1 {
+  background: #a0eb9a;
+  width: 1440px;
+  height: 131px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.menu-vertical {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 17px;
+  object-fit: cover;
+}
+.searchbox {
+  width: 420px;
+  height: 79px;
+  position: absolute;
+  left: 517px;
+  top: 566px;
+}
+.search-box {
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  width: 420px;
+  height: 79px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.text {
+  width: 496px;
+  height: 447px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 119px;
+}
+.zoil {
+  color: #49ec46;
+  text-align: center;
+  font-family: "Inspiration-Regular", sans-serif;
+  font-size: 150px;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  position: absolute;
+  left: 141px;
+  top: 0px;
+  width: 198px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 2px #533131;
+}
+.log-in {
+  color: #000000;
+  text-align: center;
+  font-family: "ABeeZee-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 183px;
+  top: 390px;
+  width: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.where-farming-meets-future {
+  color: #704747;
+  text-align: center;
+  font-family: "AlegreyaSansSc-Bold", sans-serif;
+  font-size: 48px;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 161px;
+  width: 496px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  width: 1440px;
+  height: 151px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  bottom: 0px;
+}
+.footerspace {
+  background: #000000;
+  width: 1440px;
+  height: 151px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.about {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Akshar-SemiBold", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  position: absolute;
+  left: 454px;
+  top: 48px;
+  width: 126px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
