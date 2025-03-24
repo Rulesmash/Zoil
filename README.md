@@ -9,7 +9,7 @@ A Articulated website that introduces new generation in agriculture and farming 
 It primarly focuses on distrubuting articles made by farmers or surveys regarding them sourced into text
 Users can upload articles of their own and it would go through a guideline check and would be upoaded along with other guides , encouraging new practices in agriculture
 
-#Features to implement later on
+# Features to implement later on
 A article read out feature for audiobook styled learning
 Different language support
 A location based agriculture tips support that is based on soil and weather conditions
